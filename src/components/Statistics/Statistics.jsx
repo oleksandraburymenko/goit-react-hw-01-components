@@ -31,10 +31,10 @@ export const Statistics = ({title, stats}) => {
 }
 
 
-Statistics.PropTypes = {
+Statistics.propTypes = {
     title: PropTypes.string.isRequired,
     stats: PropTypes.array.isRequired,
     id: PropTypes.string,
     label: PropTypes.string,
-    persentage: PropTypes.number,
+    persentage: PropTypes.number
 }
