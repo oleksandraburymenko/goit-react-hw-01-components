@@ -1,5 +1,5 @@
 import { Profile } from './Profile/Profile'
-import user from 'path/to/user.json'
+import user from './Profile/user.json'
 
 
 

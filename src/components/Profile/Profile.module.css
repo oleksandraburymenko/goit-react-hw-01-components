@@ -16,15 +16,16 @@
 }
 
 .avatar{
-    max-width: 170px;
+    max-width: 100px;
     height: auto;
     border-radius: 50%;
-    border: 2px blue solid;
+    border: 2px rgb(231, 224, 12) solid;
     background-color: yellow;
+    margin-top: 15px;
 }
 
 .avatar:hover{
-    background-color: aquamarine;
+    background-color: white;
     border: none;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .name{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bolder;
 }
 
@@ -48,20 +49,21 @@
 
 .stats{
     list-style: none;
-    display: flex;
-    justify-content: baseline;
+    /* display: flex;
+    justify-content: baseline; */
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
 }
 
+
 .label{
-    font-weight: 600;
-    margin-left: 15px;
+    font-weight: 400;
+    margin-left: 10px;
 }
 
 .quantity{
-    color: black;
-    font-size: 16px;
+    color: rgb(20, 63, 63);
+    font-size: 14px;
 }
